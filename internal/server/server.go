@@ -1,7 +1,7 @@
 package server
 
 import (
-	"api-places/configs"
+	"api-golang-template/configs"
 	"context"
 	"fmt"
 	"log"
@@ -9,9 +9,9 @@ import (
 
 	"github.com/go-redis/redis"
 	"github.com/jinzhu/copier"
-	"github.com/tripgator/lib-golang-packages/xcache"
-	"github.com/tripgator/lib-golang-packages/xdb"
-	"github.com/tripgator/lib-golang-packages/xlogger"
+	"github.com/somphongph/lib-golang-packages/xcache"
+	"github.com/somphongph/lib-golang-packages/xdb"
+	"github.com/somphongph/lib-golang-packages/xlogger"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 

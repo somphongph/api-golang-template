@@ -1,6 +1,6 @@
 package entities
 
-import "github.com/tripgator/lib-golang-packages/xentities"
+import "github.com/somphongph/lib-golang-packages/xentities"
 
 type Place struct {
 	xentities.MongoBaseId `json:",inline" bson:",inline"`

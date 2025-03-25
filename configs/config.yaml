@@ -1,6 +1,6 @@
 app:
-  name: api-places
-  kv_name: tgr-dev
+  name: api-golang-template
+  kv_name: kvname-dev
   env: local
   port: 9000
 

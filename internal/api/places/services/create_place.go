@@ -1,10 +1,10 @@
 package services
 
 import (
-	"api-places/internal/entities"
+	"api-golang-template/internal/entities"
 	"context"
 
-	"github.com/tripgator/lib-golang-packages/xlogger"
+	"github.com/somphongph/lib-golang-packages/xlogger"
 )
 
 func (s *service) AddPlace(ctx context.Context) error {

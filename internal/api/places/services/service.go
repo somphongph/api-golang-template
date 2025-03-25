@@ -1,7 +1,7 @@
 package services
 
 import (
-	"api-places/internal/api/places/storages"
+	"api-golang-template/internal/api/places/storages"
 	"context"
 )
 

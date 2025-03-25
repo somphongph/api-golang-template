@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"api-places/internal/api/places/handlers"
-	"api-places/internal/api/places/services"
-	"api-places/internal/api/places/storages"
+	"api-golang-template/internal/api/places/handlers"
+	"api-golang-template/internal/api/places/services"
+	"api-golang-template/internal/api/places/storages"
 
 	"github.com/labstack/echo/v4"
 	"go.mongodb.org/mongo-driver/mongo"

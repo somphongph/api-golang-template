@@ -5,9 +5,9 @@ import (
 	"slices"
 	"strings"
 
+	"github.com/somphongph/lib-golang-packages/xlogger"
+	"github.com/somphongph/lib-golang-packages/xvault"
 	"github.com/spf13/viper"
-	"github.com/tripgator/lib-golang-packages/xlogger"
-	"github.com/tripgator/lib-golang-packages/xvault"
 )
 
 func GetSecret() *Secrets {

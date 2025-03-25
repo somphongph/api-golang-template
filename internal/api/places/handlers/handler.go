@@ -1,6 +1,6 @@
 package handlers
 
-import "api-places/internal/api/places/services"
+import "api-golang-template/internal/api/places/services"
 
 type handlers struct {
 	service services.Servicer

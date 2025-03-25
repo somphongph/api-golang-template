@@ -1,7 +1,7 @@
 package main
 
 import (
-	"api-places/internal/server"
+	"api-golang-template/internal/server"
 	"log"
 )
 

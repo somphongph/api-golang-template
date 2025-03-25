@@ -1,7 +1,7 @@
 package server
 
 import (
-	places "api-places/internal/api/places/routes"
+	places "api-golang-template/internal/api/places/routes"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
