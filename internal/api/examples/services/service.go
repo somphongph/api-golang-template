@@ -1,13 +1,13 @@
 package services
 
 import (
-	"api-golang-template/internal/api/places/storages"
 	"context"
+	"template-api-please-replace/internal/api/examples/storages"
 )
 
 type Servicer interface {
-	GetPlace(ctx context.Context) string
-	AddPlace(ctx context.Context) error
+	GetExample(ctx context.Context) string
+	AddExample(ctx context.Context) error
 }
 
 type service struct {
