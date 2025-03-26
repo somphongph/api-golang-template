@@ -30,4 +30,4 @@ uplib:
 
 uplibdev:
 	@echo "Upgrading libraries..."
-	@go get -u github.com/tripgator/lib-golang-packages@develop
+	@go get -u github.com/somphongph/lib-golang-packages@develop
