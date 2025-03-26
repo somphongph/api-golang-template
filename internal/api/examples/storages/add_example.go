@@ -1,8 +1,8 @@
 package storages
 
 import (
+	"api-golang-template/internal/entities"
 	"context"
-	"template-api-please-replace/internal/entities"
 	"time"
 )
 

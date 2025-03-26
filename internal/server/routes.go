@@ -1,7 +1,7 @@
 package server
 
 import (
-	places "api-golang-template/internal/api/places/routes"
+	examples "api-golang-template/internal/api/examples/routes"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
@@ -26,8 +26,8 @@ func (s *Server) RegisterRoutes() *echo.Echo {
 
 	apiRoot := e.Group("/v1")
 
-	// places
-	places.NewRoutes(apiRoot, s.mongo)
+	// examples
+	examples.NewRoutes(apiRoot, s.mongo)
 
 	return e
 }

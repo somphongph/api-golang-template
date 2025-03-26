@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"template-api-please-replace/internal/api/examples/handlers"
-	"template-api-please-replace/internal/api/examples/services"
-	"template-api-please-replace/internal/api/examples/storages"
+	"api-golang-template/internal/api/examples/handlers"
+	"api-golang-template/internal/api/examples/services"
+	"api-golang-template/internal/api/examples/storages"
 
 	"github.com/labstack/echo/v4"
 	"go.mongodb.org/mongo-driver/mongo"

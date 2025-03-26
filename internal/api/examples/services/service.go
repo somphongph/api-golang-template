@@ -1,8 +1,8 @@
 package services
 
 import (
+	"api-golang-template/internal/api/examples/storages"
 	"context"
-	"template-api-please-replace/internal/api/examples/storages"
 )
 
 type Servicer interface {

@@ -1,10 +1,10 @@
 package storages
 
 import (
+	"api-golang-template/configs"
+	"api-golang-template/internal/constants"
+	"api-golang-template/internal/entities"
 	"context"
-	"template-api-please-replace/configs"
-	"template-api-please-replace/internal/constants"
-	"template-api-please-replace/internal/entities"
 
 	"go.mongodb.org/mongo-driver/mongo"
 )

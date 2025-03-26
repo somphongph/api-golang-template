@@ -1,8 +1,8 @@
 package services
 
 import (
+	"api-golang-template/internal/entities"
 	"context"
-	"template-api-please-replace/internal/entities"
 
 	"github.com/tripgator/lib-golang-packages/xlogger"
 )

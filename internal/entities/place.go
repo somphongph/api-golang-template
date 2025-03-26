@@ -2,7 +2,7 @@ package entities
 
 import "github.com/somphongph/lib-golang-packages/xentities"
 
-type Place struct {
+type Example struct {
 	xentities.MongoBaseId `json:",inline" bson:",inline"`
 
 	Name string `json:"name" bson:"name"`
